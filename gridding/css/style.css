@@ -1,0 +1,38 @@
+#page {
+		border-width: 3px;
+}
+
+#menu {
+		width: 100%;
+		text-align: center;
+		border-width: 3px;
+}
+
+#main {
+		vertical-align: top;
+		margin-left: 150px;
+}
+
+
+#column1 {
+		width: 500px;
+		vertical-align: top;
+		border-width: 3px;
+		display:inline-block;
+}
+
+
+#column2 {
+		width: 500px;
+		vertical-align: top;
+		border-width: 3px;
+		display:inline-block;
+}
+
+.menu_ul li {
+		display: inline;
+		margin-right: 50px;
+		font-family: helvetica, verdana, sans-serif;
+
+
+}
