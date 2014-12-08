@@ -28,11 +28,13 @@ body {
 
 
 hr {
-    width: 30px;
-    margin-left: 0px;
-    color: #f00;
-    background-color: #f00;
+    border: 0;
+    color: #FF000;
+    background-color: #FF000;
     height: 5px;
+    width: 100%;
+    text-align: left;
+}
 <<<<<<< HEAD
 }
 =======
