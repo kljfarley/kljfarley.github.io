@@ -29,9 +29,10 @@ body {
 
 hr {
     width: 30px;
-    color: #ff0000;
     margin-left: 0px;
-    line-height: 3px;
+    color: #f00;
+    background-color: #f00;
+    height: 5px;
 <<<<<<< HEAD
 }
 =======
