@@ -1,0 +1,87 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image:url('../unit6/14.jpg'); 
+}
+
+.logo {
+  padding-top: 30px;
+}
+
+}
+h1  {
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+  display: inline-block;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 12px;
+  padding: 13px 0;
+  color: black;
+  border-bottom-color: white;
+  text-decoration: none;
+}
+
+nav {
+  font-size: 16px;
+  float: center;
+  text-align: center;
+  clear: both;
+  text-decoration: none;
+  padding: 0px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+  display: inline-block;
+  padding: 0px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid black;
+  padding: 18px 0;
+  margin-top: 40px;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 400px;
+  height: 200px;
+  padding: 30px;
+  margin: 0;
+  position: center;
+}
+
+
+img {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 480px;
+  padding: 0px;
+}
+
+.herobanner {
+  background: #f9f9f9;
+  color: white;
+  overflow: auto;
+}
+
+
+@media screen and (max-width:400px) {
+
+    .imagescale {
+    
+
+    }
+
+
+}
