@@ -15,14 +15,20 @@ h1  {
   border-bottom: 4px solid black;
   display: inline-block;
   text-decoration: none;
+  padding: none;
+  color: #3F3D37;
 }
 
 h2 {
   font-size: 12px;
   padding: 13px 0;
-  color: black;
   border-bottom-color: white;
   text-decoration: none;
+  color: #3F3D37;
+}
+
+p {
+  color: #3F3D37;
 }
 
 nav {
@@ -31,35 +37,27 @@ nav {
   text-align: center;
   clear: both;
   text-decoration: none;
-  padding: 0px;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
   margin: 30px;
   display: inline-block;
   padding: 0px;
-}
-
-footer {
-  text-align: center;
+  color: #3F3D37;
   font-size: 12px;
-  border-top: 1px solid black;
-  padding: 18px 0;
-  margin-top: 40px;
-  clear: both;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
 }
 
-.column {
-  float: left;
-  width: 400px;
-  height: 200px;
-  padding: 30px;
-  margin: 0;
-  position: center;
-}
-
+a:hover    {
+    text-decoration: none;
+    background-color: #ffcfdc;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+  }
 
 img {
   display: block;
@@ -76,10 +74,78 @@ img {
 }
 
 
+#content {
+  background: white;
+  padding: 0px;
+  float: center;
+  padding: 10px;
+}
+
+.column1 {
+  float: left;
+  width: 66%;
+  background: white;
+}
+
+.column2 {
+  float: left;
+  width: 30%;
+}
+
+
+#main {
+float:left;
+width:922px;
+background: white;
+}
+
+#sidebar {
+float:right;
+width:500px;
+background: white;
+}
+
+
+footer {
+  clear: both;
+    background: none repeat scroll 0 0 #ffcfdc;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    line-height: 1.3em;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 500;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer a {
+    color: #ffffff;
+}
+footer a:hover {
+    color: #ffffff;
+}
+footer .inner {
+    min-height: 12px;
+    padding: 34px 0;
+}
+footer .copyright {
+    float: left;
+}
+footer .footer-text {
+    float: right;
+}
+
+
+
+
+
 @media screen and (max-width:400px) {
 
     .imagescale {
-    
+
 
     }
 
