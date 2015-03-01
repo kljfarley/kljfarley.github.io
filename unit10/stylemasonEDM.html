@@ -3,10 +3,31 @@
 <html>
 <head>
   <title>STYLE MASON</title>
+
+  <style type="text/css">
+    @media only screen and (max-device-width: 400px){
+
+      #maintable{
+        width: 100% !important;
+      }
+
+      #menu {
+       text-align: left !important;
+        position: absolute !important;
+      }
+
+      a {
+          display: block;
+          text-align: center;
+          padding: 10px ! important;
+      }
+  } 
+</style>
+
 </head>
   
 <body>
-  <table border="0" width="100%" style="font-family: Montserrat, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; background-color: #ffcfdc">
+  <table border="0" width="100%" style="font-family: Montserrat, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; background-color: #ffcfdc" id="maintable">
     <tr>
       <th><h1><img src="../unit10/stylemasonlogo.png" width="50%"></h1></th>
       <td>
@@ -14,12 +35,12 @@
     </tr>
      <tr>
       <td style="background: white; color: #403e37; padding: 1em;" align="center" width="100%">
-        <table cellpadding="20" cellspacing="0" border="0" style="background: white; color: #403e37;">
+        <table cellpadding="20" cellspacing="0" border="0" style="background: white; color: #403e37;" id="menu">
           <tr>
-            <td width="28%"><a href="#" style="color: #403e37; text-decoration: none; font-size: 20px">BEDROOM</td>
-            <td width="28%"><a href="#" style="color: #403e37; text-decoration: none; font-size: 20px" >BATHROOM</td>
-            <td width="28%"><a href="#" style="color: #403e37; text-decoration: none; font-size: 20px">KITCHEN</td>
-            <td width="28%"><a href="#" style="color: #403e37; text-decoration: none; font-size: 20px">OUTDOOR</td>
+            <td width="28%"><a style="color: #403e37; text-decoration: none; font-size: 20px">BEDROOM</td>
+            <td width="28%"><a style="color: #403e37; text-decoration: none; font-size: 20px">BATHROOM</td>
+            <td width="28%"><a style="color: #403e37; text-decoration: none; font-size: 20px">KITCHEN</td>
+            <td width="28%"><a style="color: #403e37; text-decoration: none; font-size: 20px">OUTDOOR</td>
           </tr>  
         </table>
       </td>
