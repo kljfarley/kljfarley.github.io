@@ -98,7 +98,7 @@ img {
 
 .main {
 float:left;
-width:950px;
+width:40%;
 height: 350px;
 background: white;
 padding: 15px;
@@ -182,7 +182,12 @@ footer .footer-text {
 }
 
 
-@media (max-width: 886px) {
+
+
+
+
+
+@media (max-width: 840px) {
   nav {
     width: 50%;
     font-size: 1.2em;
@@ -194,7 +199,74 @@ footer .footer-text {
   img {
   width: 400px;
   }
+
+
+  .menu_list {
+    opacity: 0;
+    margin-bottom: 5px;
+    z-index:400;
 }
+  .menu_list:hover {
+    opacity: 1;
+    width: 150px;
+}
+  .menu_list li {
+    background: none repeat scroll 0 0 white;
+    list-style-type: none;
+}
+  .menu_list li:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #d3d3d3;
+}
+  .menu_list li:hover {
+    background: none repeat scroll 0 0 #3c5875;
+    color: white;
+}
+  a:hover {
+    color: white;
+}
+
+.column1 {
+  float: none;
+  width: auto;
+  background: white;
+  padding: 15px;
+}
+
+.column2 {
+  float: none;
+  width: auto;
+  padding: 10px;
+  position:relative;
+}
+
+
+.main {
+float:none;
+width:auto;
+background: white;
+padding: 15px;
+}
+
+.sidebar {
+float:none;
+width:auto;
+background: white;
+padding: 15px;
+}
+
+#planter {
+  size: 100%;
+
+}
+
+
+}
+
+
+
+
+
+
 @media (max-width: 525px) {
   nav {
     background-image: url("../unit6/menu.png");
@@ -231,6 +303,46 @@ footer .footer-text {
     }
 
 
+.logo {
+  background-image: ("../unit6/stylemasonlogo.png");
+  padding-top: 30px;
+}
+
+.main {
+float:none;
+width:auto;
+background: white;
+padding: 15px;
+display:block;
+}
+
+.column1 {
+  float: none;
+  width: auto;
+  background: white;
+  padding: 15px;
+}
+
+.column2 {
+  float: none;
+  width: auto;
+  padding: 10px;
+  position:relative;
+}
+
+.sidebar {
+float:none;
+width:auto;
+background: white;
+padding: 15px;
+}
+
+
+#planter {
+  size: 100%;
+
+}
+
   footer {
   clear: both;
     background: none repeat scroll 0 0 #ffcfdc;
@@ -258,10 +370,16 @@ footer .footer-text {
     padding: 34px 0;
 }
   footer .copyright {
-    float: left;
+    float: none;
+    width:auto;
+    display:inline-block;
+
 }
   footer .footer-text {
-    float: right;
+    float: none;
+    width:auto;
+    display:inline-block;
+
 }
 
 
