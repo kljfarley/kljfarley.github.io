@@ -75,30 +75,25 @@ img {
   padding: 0px;
 }
 
+
+.content{
+width: auto;
+background: white;
+
+}
+
+
 .herobanner {
   background: #f9f9f9;
-  color: white;
+  background-size: 100%;
   overflow: auto;
+  width:100%;
+  position:center;
 }
-
-
-.column1 {
-  float: left;
-  width: 66%;
-  background: white;
-  padding: 15px;
-}
-
-.column2 {
-  float: left;
-  width: 30%;
-  padding: 10px;
-}
-
 
 .main {
 float:left;
-width:40%;
+width:900px;
 height: 350px;
 background: white;
 padding: 15px;
@@ -112,8 +107,8 @@ background: white;
 padding: 15px;
 }
 
-#planter {
-  size: 80%;
+.planter {
+  size: 40%;
 
 }
 
@@ -189,25 +184,32 @@ footer .footer-text {
 
 @media (max-width: 840px) {
   nav {
+    background-image: url("../unit6/menu.png");
+    background-repeat: no-repeat;
     width: 50%;
     font-size: 1.2em;
-    position: relative;
-    text-align: center;
+    position: absolute;
+    text-align: left;
     top: 0;
     width: 100%;
+    position:absolute;
   }
+
   img {
   width: 400px;
   }
 
 
   .menu_list {
-    opacity: 0;
+    opacity: 100;
+    background-color:white;
+    width: 150px;
     margin-bottom: 5px;
     z-index:400;
 }
   .menu_list:hover {
-    opacity: 1;
+    opacity: 100;
+    background-color:white;
     width: 150px;
 }
   .menu_list li {
@@ -221,42 +223,37 @@ footer .footer-text {
     background: none repeat scroll 0 0 #3c5875;
     color: white;
 }
-  a:hover {
+a:hover    {
+    text-decoration: none;
+    background-color: #ffcfdc;
+    padding-top: 2px;
+    padding-bottom: 2px;
     color: white;
-}
+  }
 
-.column1 {
-  float: none;
-  width: auto;
-  background: white;
-  padding: 15px;
-}
 
-.column2 {
-  float: none;
-  width: auto;
-  padding: 10px;
-  position:relative;
+.logo {
+  background-image: ("../unit6/stylemasonlogo.png");
+  padding-top: 30px;
+  padding-bottom:15x;
 }
-
 
 .main {
 float:none;
-width:auto;
+width:100%;
 background: white;
 padding: 15px;
 }
 
 .sidebar {
 float:none;
-width:auto;
+width:100%;
 background: white;
 padding: 15px;
 }
 
 #planter {
   size: 100%;
-
 }
 
 
@@ -294,9 +291,13 @@ padding: 15px;
     background: none repeat scroll 0 0 #3c5875;
     color: white;
 }
-  a:hover {
+  a:hover    {
+    text-decoration: none;
+    background-color: #ffcfdc;
+    padding-top: 2px;
+    padding-bottom: 2px;
     color: white;
-}
+  }
     img {
   padding-top: 2em;
       width: 100%;
@@ -306,36 +307,56 @@ padding: 15px;
 .logo {
   background-image: ("../unit6/stylemasonlogo.png");
   padding-top: 30px;
+  padding-bottom:15x;
 }
 
 .main {
 float:none;
-width:auto;
+width:100%;
 background: white;
 padding: 15px;
+padding-top:10px;
 display:block;
 }
 
-.column1 {
-  float: none;
-  width: auto;
-  background: white;
-  padding: 15px;
-}
-
-.column2 {
-  float: none;
-  width: auto;
-  padding: 10px;
-  position:relative;
-}
 
 .sidebar {
 float:none;
-width:auto;
+width:100%;
 background: white;
 padding: 15px;
 }
+
+.address {
+  background-color: #a3efd1;
+  padding: 15px;
+  width: 350px;
+  position: relative;
+  color: white;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.email {
+  background-color: #ffcfdc;
+  padding: 15px;
+  width: 350px;
+  position: relative;
+  color: white;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.phone {
+  background-color: #a3efd1;
+  padding: 15px;
+  width: 350px;
+  position: relative;
+  color: white;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
 
 
 #planter {
@@ -354,9 +375,8 @@ padding: 15px;
     position: inline;
     text-transform: uppercase;
     z-index: 500;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
   footer a {
