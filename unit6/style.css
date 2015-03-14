@@ -264,7 +264,7 @@ padding: 15px;
 
 
 
-@media (max-width: 525px) {
+@media (max-width: 480px) {
   nav {
     background-image: url("../unit6/menu.png");
     background-repeat: no-repeat;
@@ -360,7 +360,7 @@ padding: 15px;
 
 
 #planter {
-  size: 100%;
+  size: 40%;
 
 }
 
