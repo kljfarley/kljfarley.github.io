@@ -144,7 +144,7 @@ padding: 15px;
 }
 
 footer {
-  clear: both;
+    clear: both;
     background: none repeat scroll 0 0 #ffcfdc;
     color: #ffffff;
     font-size: 12px;
@@ -157,7 +157,7 @@ footer {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 100%;
+    width: 98%;
 }
 footer a {
     color: #ffffff;
@@ -238,6 +238,14 @@ a:hover    {
   padding-bottom:15x;
 }
 
+.herobanner {
+  background: #f9f9f9;
+  background-size: 100%;
+  overflow: auto;
+  width:100%;
+  position:center;
+}
+
 .main {
 float:none;
 width:100%;
@@ -310,6 +318,14 @@ padding: 15px;
   padding-bottom:15x;
 }
 
+.herobanner {
+  background: #f9f9f9;
+  background-size: 100%;
+  overflow: auto;
+  width:100%;
+  position:center;
+}
+
 .main {
 float:none;
 width:100%;
@@ -365,7 +381,8 @@ padding: 15px;
 }
 
   footer {
-  clear: both;
+    width:108%;
+    clear: both;
     background: none repeat scroll 0 0 #ffcfdc;
     color: #ffffff;
     font-size: 12px;
