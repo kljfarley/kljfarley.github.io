@@ -157,7 +157,6 @@ footer {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    width: 98%;
 }
 footer a {
     color: #ffffff;
@@ -201,7 +200,7 @@ footer .footer-text {
 
 
   .menu_list {
-    opacity: 100;
+    opacity: 0;
     background-color:white;
     width: 150px;
     margin-bottom: 5px;
@@ -381,7 +380,6 @@ padding: 15px;
 }
 
   footer {
-    width:108%;
     clear: both;
     background: none repeat scroll 0 0 #ffcfdc;
     color: #ffffff;
