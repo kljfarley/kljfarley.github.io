@@ -260,8 +260,26 @@ padding: 15px;
 }
 
 #planter {
-  size: 100%;
+  size: 50%;
 }
+
+footer {
+    width:98%;
+    clear: both;
+    background: none repeat scroll 0 0 #ffcfdc;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    line-height: 1.3em;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 500;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 
 }
@@ -373,13 +391,13 @@ padding: 15px;
 }
 
 
-
 #planter {
-  size: 40%;
+  size: 10px;
 
 }
 
   footer {
+    width:94%;
     clear: both;
     background: none repeat scroll 0 0 #ffcfdc;
     color: #ffffff;
@@ -387,11 +405,13 @@ padding: 15px;
     font-weight: 700;
     letter-spacing: 0.09em;
     line-height: 1.3em;
-    position: inline;
+    position: relative;
     text-transform: uppercase;
     z-index: 500;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:100%;
 }
 
   footer a {
@@ -411,7 +431,7 @@ padding: 15px;
 
 }
   footer .footer-text {
-    float: none;
+    float:none;
     width:auto;
     display:inline-block;
 
